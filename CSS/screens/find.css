@@ -56,6 +56,7 @@
 
 .open-post {
   display: flex;
+  justify-content: space-between;
 }
 
 .open-post__title {
@@ -95,4 +96,30 @@
 
 .open-post__member-status {
   color: #ffb0e0;
+}
+
+.open-post__photo {
+  position: relative;
+}
+.open-post__column:last-child img {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 3px;
+  font-size: 11px;
+}
+
+.open-post__heart-count span {
+  margin-left: 3px;
 }
