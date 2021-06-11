@@ -99,8 +99,8 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
-  align-items: center;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .reply .relpy__column:first-child {
@@ -112,11 +112,17 @@
   position: relative;
 }
 
+.reply i {
+  opacity: 0.5;
+  margin-left: -10px;
+}
+
 .reply input {
   height: 30px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .reply__column:last-child > i,
@@ -145,7 +151,11 @@
   margin-top: 2px;
 }
 
-.reply .relpy__column:first-child > i {
-  display: flex;
-  align-items: flex-start;
+.reply__column button i {
+  opacity: 1;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
 }
