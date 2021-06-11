@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta charset="UTF=8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with White bird - Kokoa clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-quarter fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- Battery Icon -->
+        <!-- Lightning Icon -->
+      </div>
+    </div>
+    <!-- 상단 setting 바 -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <!-- 두번째 상단바(이름) -->
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">White bird</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span class="alt-header__column-ham"
+          ><i class="fas fa-bars fa-lg"></i
+        ></span>
+      </div>
+    </header>
+    <!-- 중간 회색 시간표시 -->
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <!-- 대화창 왼쪽채팅 -->
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/564x/1f/02/cc/1f02cc65d94331f95cbce51a18c90210.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">White bird</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <!-- 오른쪽 노란색 채팅 -->
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">OMG What the hekkkk</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- 채팅 입력부분 -->
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-smile"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/e606138b03.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
