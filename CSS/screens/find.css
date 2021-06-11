@@ -1,24 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  padding-bottom: 20px;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 20px;
-}
-
-.find-icons__icon span {
-  margin-top: 17px;
-}
-
 .recommended-friends {
   padding-top: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -101,10 +80,11 @@
 .open-post__photo {
   position: relative;
 }
-.open-post__column:last-child img {
+.open-post__photo img {
   width: 65px;
   height: 65px;
   border-radius: 10px;
+  justify-content: space-between;
 }
 
 .open-post__heart-count {
@@ -121,5 +101,81 @@
 }
 
 .open-post__heart-count span {
+  margin-left: 3px;
+}
+
+.open-post__title-second {
+  margin-top: 35px;
+}
+
+.open-post-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-post__title-second {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.open-post__hashtags-second {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.open-post__members-second {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.open-post__members-second img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__member-count-second {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.open-post__members-second .divider-second {
+  width: 1px;
+  height: 14px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.open-post__member-status-second {
+  color: #ffb0e0;
+}
+
+.open-post__photo-second {
+  position: relative;
+  margin-top: 30px;
+}
+.open-post__photo-second img {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.open-post__heart-count-second {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 3px;
+  font-size: 11px;
+}
+
+.open-post__heart-count-second span {
   margin-left: 3px;
 }

@@ -1,0 +1,39 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 20px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 20px;
+}
+
+.icon-row__icon span {
+  margin-top: 17px;
+}
+
+.icon-row__icon-op {
+  opacity: 0;
+}
+
+.icon-row__redma {
+  position: relative;
+}
+
+.icon-row__red {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: flex;
+  position: absolute;
+  left: 38px;
+  bottom: 50px;
+}
